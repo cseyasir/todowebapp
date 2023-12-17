@@ -4,8 +4,8 @@ def add_todo():
     todo=st.session_state["new_todo"]
     todos=function.add(todo)
 todos=function.get_todos()
-st.title("My todos web app developed using python")
-st.subheader("This is my todos app.")
+st.title("My todos web app ")
+st.subheader("This is my todos app.Developed using python")
 
 for index ,todo in enumerate(todos):
     check_box= st.checkbox(todo,key=todo)
