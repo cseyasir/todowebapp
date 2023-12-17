@@ -4,7 +4,7 @@ def add_todo():
     todo=st.session_state["new_todo"]
     todos=function.add(todo)
 todos=function.get_todos()
-st.title("My todos web app")
+st.title("My todos web app developed using python")
 st.subheader("This is my todos app.")
 
 for index ,todo in enumerate(todos):
